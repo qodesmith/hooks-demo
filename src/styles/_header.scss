@@ -1,0 +1,17 @@
+.header {
+  @extend .df;
+  @extend .justify-center;
+  @extend .obilex;
+
+  a {
+    @extend .color-inherit;
+    @extend .no-decoration;
+
+    &:hover,
+    &.active {
+      @extend .lime;
+    }
+
+    transition: color .2s;
+  }
+}

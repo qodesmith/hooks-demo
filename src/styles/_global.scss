@@ -1,0 +1,68 @@
+/*
+  px <-> em: http://pxtoem.com/
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  // https://mzl.la/2KnTfHh
+  // size/line-height | family
+  font: 24px 'Obilex', 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+.react-hooks {
+  @extend .white;
+  @extend .ma0;
+
+  text-shadow:  4px 2px black;
+
+  span {
+    transition: color .3s;
+  }
+}
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: Obilex;
+  src: url('../assets/ObelixProBIt-cyr.ttf');
+}
+
+.obilex {
+  font-family: Obilex;
+}
+
+@font-face {
+  font-family: Bomb;
+  src: url('../assets/TheBomb.otf');
+}
+
+.bomb {
+  font-family: Bomb;
+}
+
+@font-face {
+  font-family: Earwig;
+  src: url('../assets/earwig.ttf');
+}
+
+.earwig {
+  font-family: Earwig;
+}
